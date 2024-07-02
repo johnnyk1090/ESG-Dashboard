@@ -8,6 +8,16 @@
 <p>3. Geoplot for CO2 emissions and GPD per country and Year</p>
 
 <br>
+<p align="center">
+  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/barplots.png" alt="Barplots" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/3d_scatter.png" alt="3D scatter" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/geo_plot.png" alt="Geo" width="600"/>
+</p>
+
 <br>
 <p>The final goal of the project is to provide plots via Dash</p> 
 
