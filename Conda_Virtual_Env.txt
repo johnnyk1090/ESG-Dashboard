@@ -1,0 +1,29 @@
+1. conda create -n yourenv pip
+
+
+2. conda activate yourenv
+
+
+# to create a new env based upon spec-file.txt 
+3. conda create --name myenv --file spec-file.txt 
+
+OR
+
+# to use the spec file to install its listed packages into an existing environment
+4. conda install --name myenv --file spec-file.txt
+
+
+# clone an existing env to a new one 
+5. conda create --name myclone --clone myenv
+
+
+# extract requirements file (spec-file.txt)
+6. conda list --explicit > OneDrive\Υπολογιστής\spec-file.txt
+
+# extract requirements.txt (python 3)
+7. pip3 freeze > OneDrive\Υπολογιστής\requirements.txt
+
+8. pip install pipreqs and run pipreqs from the folder in which your project resides it will search all folders in the directory 
+and generate a requirements.txt with only the specific requirements of that project.
+You may need to run pipreqs --force if there is already a requirements.txt in that folder to overwrite it with the correct set of requirements. 
+
