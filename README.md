@@ -15,8 +15,6 @@
 
 <p>1. Download requirements.txt</p>
 
-<p>2. Follow the instructions into Conda_Virtual_Env.txt</p>
-
   
   
 <h2>💻 Built with</h2>
