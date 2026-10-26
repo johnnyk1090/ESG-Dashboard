@@ -35,4 +35,4 @@ The data is [`global-data-on-sustainable-energy.csv`](global-data-on-sustainable
 
 <br>
 
-<p align="center"><sub>Part of the work of <a href="https://github.com/johnnyk1090">John Konteas</a> · end-to-end data science</sub></p>
+<p align="center"><sub><a href="https://github.com/johnnyk1090">← back to the profile</a></sub></p>
