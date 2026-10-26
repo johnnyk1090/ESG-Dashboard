@@ -1,37 +1,38 @@
-<h1 align="center" id="title">ESG_Dashboard</h1>
+<img src="assets/banner.svg" width="100%" alt="ESG Dashboard. Electricity access, energy sources, CO₂ and GDP for every country since 2000, explored interactively.">
 
-<p id="description">The following project will visualize ESG metrics for multiple countries since 2000. The project will have the following:</p>
+## The idea
+
+An interactive dashboard of **ESG metrics for many countries since 2000**, served with Dash.
+
+## What is inside
+
+1. **Bar plots** of access to electricity per country and year
+2. A **3D scatter plot** of electricity sources per country and year
+3. A **geo plot** of CO₂ emissions and GDP per country and year
+
+## Screens
+
+<table>
+<tr><td width="100%" valign="top"><img src="barplots.png" width="100%" alt="Access to electricity per country and year"><br><sub>Access to electricity per country and year</sub></td></tr>
+<tr><td width="100%" valign="top"><img src="3d_scatter.png" width="100%" alt="Electricity sources per country and year"><br><sub>Electricity sources per country and year</sub></td></tr>
+<tr><td width="100%" valign="top"><img src="geo_plot.png" width="100%" alt="CO₂ emissions and GDP per country"><br><sub>CO₂ emissions and GDP per country</sub></td></tr>
+</table>
+
+## Run it
+
+`requirements.txt` is a full freeze of the original environment. The app itself needs only three packages:
+
+```bash
+pip install pandas plotly dash
+python train.py   # starts the Dash app
+```
+
+The data is [`global-data-on-sustainable-energy.csv`](global-data-on-sustainable-energy.csv).
+
+## Built with
+
+`Python` · `pandas` · `Plotly` · `Dash`
+
 <br>
-    
-<p>1. Barplots for Access to electricity per country and year</p>
-<p>2. 3D Scatterplot for Electricity resources per country and year</p>
-<p>3. Geoplot for CO2 emissions and GPD per country and Year</p>
 
-<br>
-<p align="center">
-  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/barplots.png" alt="Barplots" width="600"/>
-</p>
-<p align="center">
-  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/3d_scatter.png" alt="3D scatter" width="600"/>
-</p>
-<p align="center">
-  <img src="https://github.com/johnnyk1090/ESG-Dashboard/blob/main/geo_plot.png" alt="Geo" width="600"/>
-</p>
-
-<br>
-<p>The final goal of the project is to provide plots via Dash</p> 
-
-<h2>🛠️ Installation Steps:</h2>
-
-<p>1. Download requirements.txt</p>
-
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   Python
-*   Pandas
-*   Plotly
-*   Dash
+<p align="center"><sub>Part of the work of <a href="https://github.com/johnnyk1090">Giannis Konteas</a> · end-to-end data science</sub></p>
